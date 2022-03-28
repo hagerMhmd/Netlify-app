@@ -1,0 +1,121 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin : 0 ;
+}
+.main-color
+{
+    color: #414658;
+}
+Header {
+  background-image: url(../imgs/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.header-layer {
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100%;
+}
+.header-layer h2 {
+  font-size: 4.25rem;
+}
+.header-layer p {
+  margin: 1rem 0 3rem;
+}
+.nav-container {
+  width: 28%;
+}
+.innerBox {
+  background-color: #414658;
+  width: 68%;
+}
+.navbar-open {
+  cursor: pointer;
+  top: calc(50% - 25px);
+  width: 32%;
+}
+#navBar .nav-container ul li,
+.icon-container i {
+  font-size: 1.25rem;
+  padding: 1.75rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#navBar .nav-container ul li a {
+  transition: all 0.3s;
+}
+#navBar .nav-container ul li a:hover,
+.icon-container i:hover {
+  color: rgba(214, 46, 51, 0.6) !important;
+}
+@media screen and (max-width:600px) {
+  .header-layer h2 {
+    font-size: 1.75rem;
+  }
+  #navBar .nav-container ul li,
+  .icon-container i {
+    font-size: 0.75rem;
+  }
+  .nav-container {
+    width: 35%;
+  }
+  .innerBox {
+    background-color: #414658;
+    width: 80%;
+  }
+  .navbar-open {
+    width: 20%;
+  }
+}
+.occordion-container h3 {
+  background-color: rgba(214, 46, 51, 0.6) !important;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  color: white;
+  cursor: pointer;
+}
+.occordion-container {
+  width: 50%;
+}
+.occordion-container p {
+  background-color: #ccc;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .occordion-container {
+    width: 90%;
+  }
+
+}
+.myCon {
+  background-image: url(../imgs/invitation-2508607__340.jpg);
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+.contact-left-items p 
+{
+    line-height: 1.5;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.contact-icon:hover
+{
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+textarea{
+    resize: none;
+    height: 200px;
+}
